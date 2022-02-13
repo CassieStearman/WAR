@@ -1,3 +1,9 @@
+/*
+Author: Cassie Stearman
+Date: 2022/2/12
+This program runs a WAR card game
+*/
+
 // This class builds the players, keeps track of their hand and their score
 class Player {
     constructor(name) {
@@ -39,7 +45,7 @@ class Deck {
             }
         }
     }
-    
+
     shuffleDeck() {
         this.cards.sort(compareSortNumber);
     }
